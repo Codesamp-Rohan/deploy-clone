@@ -20,19 +20,19 @@ const Index = () => {
         data-scroll
         data-scroll-speed="-0.3"
         className="absolute w-[100px] h-[100px] md:w-[400px] md:h-[200px] rounded-full object-cover right-10"
-        src="/pollution1.webp"
+        src="./pollution1.webp"
         alt="pollution image"></img>
       <img
         data-scroll
         data-scroll-speed="0.3"
         className="absolute w-[100px] h-[100px] z-[-1] md:w-[400px] md:h-[200px] rounded-full object-cover top-[40%] left-[40%]"
-        src="/pollution2.webp"
+        src="./pollution2.webp"
         alt="pollution image"></img>
       <img
         data-scroll
         data-scroll-speed="-0.1"
         className="absolute w-[100px] h-[100px] md:w-[400px] md:h-[200px] rounded-full object-cover bottom-20 right-6"
-        src="/pollution3.webp"
+        src="./pollution3.webp"
         alt="pollution image"></img>
 
       {phrases.map((text, index) => {
