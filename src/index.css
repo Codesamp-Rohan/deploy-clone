@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Grostek;
+  src: url("/Fonts/SpaceGrotesk-Regular.ttf");
+}
+
+.gro {
+  font-family: Grostek;
+}
+.sans {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.mainTextColor {
+  color: #022d42;
+}
+body {
+  margin: 0;
+  font-family: Grostek;
+  background-color: #ecece2;
+}
+/* Navbar */
+.discuss--project--btn:hover {
+  background-color: #022d42;
+  transition: 400ms;
+}
+
+.discuss--project--btn:hover .btn--msg-1 {
+  top: -100%;
+}
+
+.discuss--project--btn:hover .btn--msg-2 {
+  top: 15%;
+}
+.line-height {
+  line-height: 10rem;
+}
+/* Header */
+.header--img {
+  filter: brightness(60%);
+  background: url("/header-bg-img1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parent--grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0.5px solid #bbb;
+}
+.grid__item {
+  border: 0.5px solid #bbb;
+}
+.grid--container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 0.5px solid #bbb;
+}
+.grid--item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0.5px solid #bbb;
+}
+.star1 {
+  animation: star 4s reverse linear infinite;
+}
+.star2 {
+  animation: star 2s linear infinite;
+}
+.star3 {
+  animation: star 3s linear infinite;
+}
+@keyframes star {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg); /* Change to 180deg */
+  }
+}
+@media screen and (max-width: 900px) {
+  .line-height {
+    line-height: 5rem;
+  }
+  .mobile--none {
+    display: none;
+  }
+}
+
+input::placeholder {
+  color: #022d42; /* Adjust color for desired placeholder color */
+}
+.rohan--msg::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
