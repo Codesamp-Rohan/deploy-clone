@@ -8,14 +8,14 @@ const Index = () => {
         <div>
           <img
             className="h-[40px] md:h-[80px]"
-            src="/arrow.png"
+            src="./arrow.png"
             alt="icon"></img>
         </div>
         <span>
           <h1 className="text-[8vw]">looking</h1>
         </span>
         <span className="w-[600px]">
-          <video src="/video1.mp4" autoPlay muted loop></video>
+          <video src="./video1.mp4" autoPlay muted loop></video>
         </span>
         <div className="w-[40px] h-[40px] md:w-[8vw] md:h-[10vh] bg-[#000] rounded-full"></div>
         <span>
@@ -23,7 +23,7 @@ const Index = () => {
         </span>
         <span className="w-[200px] h-[10px] bg-[#022D42] rounded-[50px]"></span>
         <span className="w-[400px]">
-          <video src="/video2.mp4" autoPlay muted loop></video>
+          <video src="./video2.mp4" autoPlay muted loop></video>
         </span>
         <span>
           <h1 className="text-[8vw]">make</h1>
@@ -34,25 +34,25 @@ const Index = () => {
         <div>
           <img
             className="h-[40px] md:h-[80px]"
-            src="/arrow.png"
+            src="./arrow.png"
             alt="icon"></img>
         </div>
         <div>
           <img
             className="h-[40px] md:h-[80px] star1"
-            src="/star.png"
+            src="./star.png"
             alt="icon"></img>
         </div>
         <div>
           <img
             className="h-[40px] md:h-[80px] star2"
-            src="/star.png"
+            src="./star.png"
             alt="icon"></img>
         </div>
         <div>
           <img
             className="h-[40px] md:h-[80px] star3"
-            src="/star.png"
+            src="./star.png"
             alt="icon"></img>
         </div>
         <span>
@@ -62,12 +62,12 @@ const Index = () => {
           <h1 className="text-[8vw]">a</h1>
         </span>
         <span className="w-[200px] md:w-[700px]">
-          <video src="/video3.mp4" autoPlay muted loop></video>
+          <video src="./video3.mp4" autoPlay muted loop></video>
         </span>
         <div>
           <img
             className="h-[40px] md:h-[80px] star2"
-            src="/star.png"
+            src="./star.png"
             alt="icon"></img>
         </div>
         <span>
